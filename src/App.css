@@ -1,0 +1,59 @@
+.F3702_sb_fbz_page {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.F3702_sb_fbz_page *,
+.F3702_sb_fbz_page *::before,
+.F3702_sb_fbz_page *::after {
+  box-sizing: border-box;
+}
+
+.F3702_sb_fbz_table {
+  border-collapse: collapse;
+}
+
+.F3702_sb_fbz_form {
+  width: 100%;
+}
+
+.F3702_sb_fbz_input {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+input.F3702_sb_fbz_input[type='text'] {
+  min-height: 36px;
+  border: 1px solid #b8b8b8;
+  border-radius: 2px;
+  padding: 6px 8px;
+}
+
+.F3702_sb_fbz_button {
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  min-height: 38px;
+}
+
+.F3702_sb_fbz_button:disabled {
+  cursor: progress;
+  opacity: 0.75;
+}
+
+.F3702_sb_fbz_text,
+.F3702_sb_fbz_fieldlabeltext,
+.F3702_sb_fbz_footer {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.F3702_sb_fbz_err,
+.F3702_sb_fbz_invalid {
+  background: #fff4f4;
+  border: 1px solid #cc3333;
+  color: #8c1c24;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  margin-top: 8px;
+  padding: 8px 24px 8px 8px;
+  text-align: left;
+}
