@@ -57,3 +57,7 @@ input.F3702_sb_fbz_input[type='text'] {
   padding: 8px 24px 8px 8px;
   text-align: left;
 }
+
+#F3702_sb_fbz_status:empty {
+  display: none;
+}

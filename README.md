@@ -36,7 +36,7 @@ Please start your application with "1214" so I know you have read all the descri
 
 ## Implementation
 
-The converted React functional component is implemented in `src/App.jsx`.
+The converted React functional component is implemented in `src/components/SubscribeForm.jsx` and loaded by `src/App.jsx`.
 
 The original attached form source is stored in `attachments/Form.rtf`.
 
